@@ -193,6 +193,14 @@ header h1 {
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .serv .tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 aside {
   font-family: "Quicksand", sans-serif;
 }
@@ -217,4 +225,12 @@ aside section .fotos .ft6 {
 }
 aside section .fotos .ft7 {
   width: 500px;
+}
+
+@media screen and (max-width: 800px) {
+  aside .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

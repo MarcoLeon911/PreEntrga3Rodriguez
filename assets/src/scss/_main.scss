@@ -40,3 +40,17 @@
         
     }
 }
+
+.serv{
+    @media screen and (max-width:800px){
+       .tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       
+    }
+    
+}
+
+

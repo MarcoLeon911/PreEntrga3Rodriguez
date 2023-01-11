@@ -204,3 +204,11 @@ header h1 {
 .serv .traje {
   width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .serv .tarjetas2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
