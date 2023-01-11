@@ -1,0 +1,47 @@
+.nave{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(243, 242, 235);
+    height: 70px;
+    width: 100%;
+    a{
+        img{
+            height: 50px;
+            position: absolute;
+            padding: 10px 20px;
+        }
+        
+    }
+    ul{
+        float: right;
+        margin-right: 20px;
+        li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5 px;
+            a{
+                text-decoration: none;
+                color: rgb(22, 19, 19);
+                font-size: 20px;
+                padding: 7px 13px;
+                border-radius: 4px;
+                text-transform: uppercase;
+                &:hover{
+                    color: rgb(241, 143, 212);
+                    transition: .5s;
+                }
+            }
+        }
+    }
+    .checkbtn{
+        font-size: 40px;
+        color: hsl(300, 70%, 68%);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    .check{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+aside{
+    font-family: 'Quicksand', sans-serif;
+    section {
+        background-color: #f7e8f0;
+        .eventos2{
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .fotos{
+            padding: 50px;
+            
+            display: flex;
+            justify-content: center;
+            .ft5{
+                width: 500px;
+            
+            }
+            .ft6{
+                width: 500px;
+            }
+            
+            .ft7{
+                width: 500px;
+            }
+            
+        }
+    }
+}

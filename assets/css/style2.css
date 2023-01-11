@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nave {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(243, 242, 235);
+  height: 70px;
+  width: 100%;
+}
+.nave a img {
+  height: 50px;
+  position: absolute;
+  padding: 10px 20px;
+}
+.nave ul {
+  float: right;
+  margin-right: 20px;
+}
+.nave ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5 px;
+}
+.nave ul li a {
+  text-decoration: none;
+  color: rgb(22, 19, 19);
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.nave ul li a:hover {
+  color: rgb(241, 143, 212);
+  transition: 0.5s;
+}
+.nave .checkbtn {
+  font-size: 40px;
+  color: hsl(300deg, 70%, 68%);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.nave .check {
+  display: none;
+}
+
+header {
+  font-family: "Quicksand", sans-serif;
+  background-image: url(../img/eventos.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 90px;
+  color: rgb(255, 236, 236);
+}
+
+.pie {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  background-color: rgb(236, 200, 200);
+}
+.pie > .partd {
+  color: black;
+  text-align: center;
+  background-color: rgba(228, 188, 176, 0.726);
+}
+.pie > .partu {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0 px;
+}
+.pie > .partu > .box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie > .partu > .box > h2 {
+  color: rgb(10, 8, 8);
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.pie > .partu > .box > p {
+  color: rgb(20, 18, 18);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.pie > .partu > .box > a {
+  text-decoration: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  margin-top: 30px;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie > .partu > .box > a:hover {
+  color: antiquewhite;
+}
+.pie > .partu > .box > figure > img {
+  width: 150px;
+}
+
+.total {
+  display: grid;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(224, 156, 215);
+}
+.total h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 30px;
+}
+.total .formi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #eba7e2;
+}
+.total .formi .formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.total .formi .formulario form textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: rgb(19, 16, 16);
+  border-bottom: 1px solid #1b1414;
+}
+.total .formi .formulario form input {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: rgb(17, 10, 10);
+  border-bottom: 1px solid #1b1414;
+}
+.total .formi .formulario form button {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: 0;
+  color: rgb(10, 6, 6);
+  border-bottom: 1px solid #1b1414;
+  background: #f7baf7;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.total .formi .formulario form button:hover {
+  background: #1b1414;
+  color: #f7baf7;
+  transition: background-color 1s ease-out;
+}
+.total .formi .info {
+  background: #f1baea;
+}
+.total .formi .info h4 {
+  text-align: center;
+  padding: 10px;
+}
+.total .formi .info ul {
+  list-style: none;
+}
+.total .formi .info ul li {
+  text-align: center;
+  padding: 5px;
+}
